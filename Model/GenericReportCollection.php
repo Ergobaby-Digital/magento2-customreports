@@ -37,7 +37,8 @@ class GenericReportCollection extends AbstractDb
          * @todo: Had to remove the connectionByName = 'readonly' temporarily until readonly connection
          * is added to Magento Cloud Pro project by Magento Cloud support
          */
-        $connection = $resourceConnection->getConnectionByName('default');
+        //$connection = $resourceConnection->getConnectionByName('default');
+        $connection = $resourceConnection->getConnectionByName('readonly');
 
         parent::__construct($entityFactory, $logger, $fetchStrategy, $connection);
     }
