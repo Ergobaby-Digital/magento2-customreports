@@ -95,11 +95,11 @@
                 </item>
             </argument>
         </column>
-        <column name="export_types">
+        <column name="email_recipients">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string">Export Types</item>
-                    <item name="sortOrder" xsi:type="number">115</item>
+                    <item name="label" xsi:type="string">Email Recipients</item>
+                    <item name="sortOrder" xsi:type="number">116</item>
                 </item>
             </argument>
         </column>

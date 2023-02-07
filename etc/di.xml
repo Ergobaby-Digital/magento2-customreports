@@ -17,4 +17,12 @@
             <argument name="logger" xsi:type="object">Magento\Cron\Model\VirtualLogger</argument>
         </arguments>
     </type>
+
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="automated_export_manual_run" xsi:type="object">DEG\CustomReports\Console\Command\AutomatedExport</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

@@ -101,6 +101,20 @@
 
             </argument>
         </field>
+        <field name="email_recipients">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Email Recipients (CSV)</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="sortOrder" xsi:type="number">35</item>
+                    <item name="dataScope" xsi:type="string">email_recipients</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">false</item>
+                    </item>
+                </item>
+            </argument>
+        </field>
         <field name="file_types">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
